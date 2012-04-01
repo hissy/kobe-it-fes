@@ -150,8 +150,9 @@ body {
 	text-align: right;
 }
 
-#copyright p {
+#copyright p small {
 	font-size: 12px;
+	color: #ffffff;
 }
 
 
