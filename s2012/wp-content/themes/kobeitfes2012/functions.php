@@ -7,6 +7,10 @@ $content_width = 500; /* pixels */
 
 /**
  * Custom Walker
+ *
+ * Extended Walker Class for Twitter Bootsrap Navigation Wordpress Integration
+ * by duanecilliers
+ * https://gist.github.com/1817371
  */
 class Bootstrap_Walker_Nav_Menu extends Walker_Nav_Menu {
 
