@@ -77,10 +77,6 @@ body {
 	margin: 0;
 }
 
-.nav-pills {
-	margin-top:20px;
-}
-
 .nav-pills > li > a {
 	background-color: #0B4A9A;
 	color: #fff;
@@ -135,10 +131,6 @@ body {
 
 .rgba .widget {
 	background-color: rgba(255, 255, 255, 0.6);
-}
-
-.widget ul {
-	color:#0B4A9A;
 }
 
 .widget-title {
