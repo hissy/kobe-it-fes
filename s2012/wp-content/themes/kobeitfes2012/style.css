@@ -546,6 +546,9 @@ article.comment {
 
 @media (max-width: 979px) {
 	/* tablet and phone */
+	img {
+		max-width: 97.5%;
+	}
 	embed,
 	iframe,
 	object {
