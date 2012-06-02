@@ -522,11 +522,12 @@ article.comment {
 
 .recent-entry .entry-title {
 	display: block;
-	margin: .4em 0 0 0;
+	margin: .4em 0 0 73px;
 }
 
-.recent-entry .entry-category {
-	margin-left: 6px;
+.recent-entry .updated {
+	margin-right: 6px;
+	float: left;
 }
 
 .recent-entry .thumbnail {
