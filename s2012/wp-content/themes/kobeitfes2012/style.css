@@ -476,6 +476,7 @@ article.comment {
 }
 
 .post,
+.single section,
 .page section,
 #comments {
 	background: #ffffff url(./assets/img/section-bg.gif) repeat 0 0;
@@ -510,6 +511,33 @@ article.comment {
 	margin-bottom: 20px;
 }
 
+.recent-entry ul {
+	list-style: none;
+	margin: 0;
+}
+
+.recent-entry li {
+	margin: .6em 0;
+}
+
+.recent-entry .entry-title {
+	display: block;
+	margin: .4em 0 0 0;
+}
+
+.recent-entry .entry-category {
+	margin-left: 6px;
+}
+
+.recent-entry .thumbnail {
+	float: left;
+	margin-right: 6px;
+}
+
+.fbcommentbox span, .fbcommentbox.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
 
 
 /* Media queries
@@ -517,7 +545,9 @@ article.comment {
 
 @media (max-width: 979px) {
 	/* tablet and phone */
-	img {
+	embed,
+	iframe,
+	object {
 		max-width: 100%;
 	}
 	.container {

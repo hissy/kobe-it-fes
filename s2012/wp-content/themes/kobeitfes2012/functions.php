@@ -6,6 +6,50 @@ $content_width = 500; /* pixels */
 
 
 /**
+ * Sets up theme defaults and registers support for various WordPress features.
+ */
+function kobeitfes_setup() {
+
+	// This theme uses post thumbnails
+	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'thumb-small', 57, 57, true );
+	
+}
+add_action( 'after_setup_theme', 'kobeitfes_setup' );
+
+
+/**
+ * Add scripts and more at footer
+ */
+function kobeitfes_add_footer() {
+	// Google Remarketing
+	if ( is_home() || is_front_page() ) :
+	?>
+<!-- Google Code for &#12488;&#12483;&#12503;&#12506;&#12540;&#12472; Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1003564399;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "zKykCOHH3QIQ79rE3gM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1003564399/?label=zKykCOHH3QIQ79rE3gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+	<?php
+	endif;
+}
+add_action( 'wp_after_admin_bar_render', 'kobeitfes_add_footer' );
+
+
+/**
  * Custom Walker
  *
  * Extended Walker Class for Twitter Bootsrap Navigation Wordpress Integration
