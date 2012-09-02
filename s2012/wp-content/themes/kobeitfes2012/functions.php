@@ -23,28 +23,25 @@ add_action( 'after_setup_theme', 'kobeitfes_setup' );
  */
 function kobeitfes_add_footer() {
 	// Google Remarketing
-	if ( is_home() || is_front_page() ) :
 	?>
-<!-- Google Code for &#12488;&#12483;&#12503;&#12506;&#12540;&#12472; Remarketing List -->
+<!-- Google Code for &#12522;&#12510;&#12540;&#12465;&#12486;&#12451;&#12531;&#12464; &#12479;&#12464; -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
 <script type="text/javascript">
 /* <![CDATA[ */
-var google_conversion_id = 1003564399;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "zKykCOHH3QIQ79rE3gM";
-var google_conversion_value = 0;
+var google_conversion_id = 1071446834;
+var google_conversion_label = "viEsCMrb4QMQsvbz_gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
 /* ]]> */
 </script>
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1003564399/?label=zKykCOHH3QIQ79rE3gM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071446834/?value=0&amp;label=viEsCMrb4QMQsvbz_gM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
 	<?php
-	endif;
 }
 add_action( 'wp_after_admin_bar_render', 'kobeitfes_add_footer' );
 
