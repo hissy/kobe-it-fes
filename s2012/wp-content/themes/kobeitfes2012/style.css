@@ -540,6 +540,183 @@ article.comment {
 }
 
 
+/* program table*/
+table#program {
+    border: 1px #E3E3E3 solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 12px;
+}
+
+table#program th {
+    padding: 5px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    background: #F5F5F5;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+}
+
+table#program td {
+    padding: 5px;
+    border: 1px #E3E3E3 solid;
+    background: #FFFFFF;
+    border-width: 0 0 1px 1px;
+    /* text-align: center; */
+}
+
+/* program navigation*/
+ul#prognavi {
+    width: 100%;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+ul#prognavi li {
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul#prognavi li a { 
+    border-top: 1px solid #22538f;
+    background: #22538f;
+    padding: 3px 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+ul#prognavi li a:hover,
+ul#prognavi li a:active {
+    border-top-color: #b3b3b3;
+    background: #b3b3b3;
+    color: #254d85;
+}
+
+/* link button block */
+
+a.bbtn-lightgreen { 
+    display: block;
+    margin: 0.5em 6px;
+    border: solid 2px #79E006;
+    background: #89ff16;
+    padding: 13px 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-weight :bold;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.bbtn-lightgreen:hover,
+a.bbtn-lightgreen:active {
+    border-color: #d3d3d3;
+    background: #d3d3d3;
+    color: #398F00; 
+}
+
+a.bbtn-orange { 
+    display: block;
+    margin: 0.5em 6px;
+    border: solid 2px #e07906;
+    background: #ff8916;
+    padding: 13px 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-weight :bold;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.bbtn-orange:hover,
+a.bbtn-orange:active {
+    border-color: #d3d3d3;
+    background: #d3d3d3;
+    color: #ff8916; 
+}
+
+
+
+
+
+/* disabled button */
+div.bbtn-disabled { 
+    /* display: block; */
+    margin: 0.5em 6px;
+    border: solid 2px #d3d3d3;
+    background: #e3e3e3;
+    padding: 13px 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #888888;
+    font-weight :bold;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* speaker area */
+div.speaker { 
+    /* display: block; */
+    margin: 0.5em 6px;
+    border: solid 2px #40409c;
+    background: #ffffff;
+    padding: 5px 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    background-image: url("http://kobe-it-fes.org/wp-content/uploads/2012/08/bgitfes.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+div.speaker img { 
+    margin: 4px;
+}
+
+div.speaker p { 
+    line-height: 1.3em;
+}
+
+/* speaker area */
+div.geospeaker { 
+    /* display: block; */
+    margin: 0.5em 6px;
+    border: solid 2px #44c044;
+    background: #ddffdd;
+    padding: 5px 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div.geospeaker img { 
+    margin: 4px;
+}
+
+div.geospeaker p { 
+    line-height: 1.3em;
+}
+
+
 
 /* Media queries
 -------------------------------------------------- */
